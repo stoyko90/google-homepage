@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <style>
+                
+                input {
+                    width: 500px;
+                    height: 40px;
+                    border-radius: 50px;
+                    border-color: rgb(235, 233, 233);
+                    margin: 30px;
+                    
+                }
+                .grow {
+                    transition: all 0.1s ease-in-out;
+                }
+                .grow:hover {
+                    transform: scale(1.01);
+                }
+                ul {
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    overflow: hidden;    
+                }
+                li{
+                    float: left;
+                    
+                }
+                li a, #location {
+                    display: block;
+                    color: rgb(50, 50, 50);
+                    text-align: center;
+                    padding: 14px 8px;
+                    text-decoration: none;
+                    font-size: 12px;
+                }
+                li a:hover {
+                    text-decoration: underline;
+                }
+                #sign {
+                    background-color: rgb(70, 120, 255);
+                    color: white;
+                    border-radius: 5%;
+                }                                  
+                
+                button {
+                    height: 30px;
+                    margin: 30px;
+                    background-color: rgb(228, 225, 225);
+                }
+                footer {                    
+                    background-color: rgb(228, 225, 225);
+                    position: absolute;
+                    bottom: 0;
+                    width: 100%;
+                }
+                #container {
+                    
+                    text-align: center;
+                    
+                    margin-top: 150px;
+                    
+                }   
+                         
+        </style>
+    </head>
+    <body>  
+        <ul>
+            <li><a href="">About</a></li>
+            <li><a href="">Store</a></li>
+            <li style="float:right"><a id="sign" href="">Sign in</a></li>
+            <li style="float:right"><a href="">Images</a></li>
+            <li style="float:right"><a href="">Gmail</a></li>
+                      
+        </ul>  
+        <div class="cointainer" id="container">
+        <div class="logo" id="logo"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt=""></div>
+        <div class="grow" id="search"><input type="text"></div>  
+        <div class="button"><button>Google Search</button>
+            <button>I'm Feeling Lucky</button>
+        </div>
+        </div>
+        
+        <footer>
+            <div style="text-align: left" id="location">United Kingdom</div>
+            <ul>           
+            
+            <li><a href="">Advertising</a></li>
+            <li><a href="">Business</a></li>
+            <li><a href="">How Search works</a></li>
+            <li style="float:right"><a href="">Settings</a></li>
+            <li style="float:right"><a href="">Terms</a></li>
+            <li style="float:right"><a href="">Privacy</a></li>
+                      
+        </ul>  
+    </footer>
+        
+    </body>
+</html>
